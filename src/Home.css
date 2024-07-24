@@ -1,0 +1,127 @@
+.home-container {
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    padding-top:50px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay-text {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    /* background-color: rgba(0, 0, 0, 0.5);  */
+    padding: 20px;
+    border-radius: 10px;
+    /* width: 90%; */
+}
+
+
+.overlay-text p,
+.overlay-text h1 {
+    margin: 0;
+    padding: 10px;
+}
+.overlay-text p{
+    font-size: 20px;
+    font-weight:bold;
+}
+.overlay-text h1{
+    font-size: 60px;
+    font-weight:bold;
+}
+.second-container {
+    text-align: center;
+    padding-top: 10px;
+    padding: 20px;
+}
+
+.second-container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.second-container p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.second-container img {
+    width: 80%;
+    height: auto;
+    /* max-width: 600px; */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .image-container img {
+        width: 100%;
+        height: 350px;
+        display: block;
+    }
+    .overlay-text {
+        padding: 15px;
+        font-size: 0.9em;
+        width: 100%; 
+    }
+
+    .overlay-text p {
+        font-size: 1.3em;
+    }
+
+    .overlay-text h1 {
+        font-size: 2.5em;
+    }
+    .second-container {
+        padding: 15px;
+    }
+
+    .second-container h1 {
+        font-size: 28px;
+    }
+
+    .second-container img {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .overlay-text {
+        padding: 10px;
+        font-size: 0.8em;
+        width: 100%; 
+    }
+
+    .overlay-text p {
+        font-size: 1.3em;
+    }
+
+    .overlay-text h1 {
+        font-size: 2.5em;
+    }
+    .second-container {
+        padding: 10px;
+    }
+
+    .second-container h1 {
+        font-size: 24px;
+    }
+
+    .second-container img {
+        width: 100%;
+    }
+}
