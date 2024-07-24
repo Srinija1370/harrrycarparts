@@ -16,7 +16,7 @@ const Navbar = () => {
                     &#9776;
                 </div>
                 <div className="navbar-title">
-                    Harry's Car Parts
+                    Harrys Car Parts
                 </div>
             </div>
             <div className={`sidebar ${sidebar ? 'open' : ''}`}>
