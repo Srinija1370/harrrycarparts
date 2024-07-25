@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/harrrycarparts/static/css/main.2678051a.css",
+    "main.js": "/harrrycarparts/static/js/main.477e5381.js",
+    "static/js/453.3f793c77.chunk.js": "/harrrycarparts/static/js/453.3f793c77.chunk.js",
+    "static/media/1.gif": "/harrrycarparts/static/media/1.8c505cc1111729a8fae3.gif",
+    "static/media/2.webp": "/harrrycarparts/static/media/2.e1c44ca02bf7621bbabf.webp",
+    "static/media/3.webp": "/harrrycarparts/static/media/3.f995d370a6643deff8ce.webp",
+    "index.html": "/harrrycarparts/index.html",
+    "main.2678051a.css.map": "/harrrycarparts/static/css/main.2678051a.css.map",
+    "main.477e5381.js.map": "/harrrycarparts/static/js/main.477e5381.js.map",
+    "453.3f793c77.chunk.js.map": "/harrrycarparts/static/js/453.3f793c77.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2678051a.css",
+    "static/js/main.477e5381.js"
+  ]
+}
