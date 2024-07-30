@@ -40,14 +40,6 @@ const Home = () => {
                 <h1>Contact</h1>
                 <p><b>Call your personal sales associate at 1 (855) 508-6285 </b></p>
             </div>
-            <div className='second-container'> 
-            </div>
-            <div className='second-container'> 
-            </div>
-            <div className='second-container'> 
-            </div>
-            <div className='second-container'> 
-            </div>
             <Footer />
         </div>
     );
