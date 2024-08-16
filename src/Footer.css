@@ -3,7 +3,7 @@
     background-color: #b2beb5; /* Ash background color */
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px;
     width: 100%;
     bottom: 0;
 }
@@ -16,14 +16,19 @@
 }
 
 .footer h1 {
-    font-size: 24px;
+    font-size: 26px;
     margin: 0;
     padding-bottom: 10px;
 }
 
 .footer p {
     margin: 5px 0;
-    font-size: 14px;
+    font-size: 17px;
+}
+.footer-discalimer{
+    text-align: justify;
+    font-size: 16px;
+    color:black;
 }
 
 /* Media queries for tablet screens */

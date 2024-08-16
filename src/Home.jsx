@@ -38,7 +38,7 @@ const Home = () => {
             </div>
             <div className='second-container'> 
                 <h1>Contact</h1>
-                <p><b>Call your personal sales associate at 1 (855) 508-6285 </b></p>
+                <p><b>Call your personal sales associate at +1-701-660-3456 </b></p>
             </div>
             <Footer />
         </div>

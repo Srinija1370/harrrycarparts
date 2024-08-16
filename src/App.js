@@ -4,6 +4,7 @@ import Home from './Home';
 import Contact from './Contact'
 import Navbar from './Navbar'
 import Footer from './Footer'
+import Billing from './Billing';
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
         <Route path='/' element = {<Home />} />
         <Route path='/contact' element = {<Contact />} />
         <Route path='/footer' element = {<Footer />} />
+        <Route path='/billing' element = {<Billing />} />
       </Routes>
       </BrowserRouter>
     </div>
